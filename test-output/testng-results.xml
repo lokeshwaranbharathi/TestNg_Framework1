@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-22T11:35:51 IST" name="Default suite" finished-at="2021-11-22T11:37:30 IST" duration-ms="98781">
+    <groups>
+    </groups>
+    <test started-at="2021-11-22T11:35:51 IST" name="Default test" finished-at="2021-11-22T11:37:30 IST" duration-ms="98781">
+      <class name="com.testng.org.TestWithIgnore">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testng.org.TestWithIgnore@3059cbc]" started-at="2021-11-22T11:35:51 IST" name="setUp" finished-at="2021-11-22T11:35:51 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:com.testng.org.TestWithIgnore@3059cbc]" started-at="2021-11-22T11:35:51 IST" name="browserLaunch" finished-at="2021-11-22T11:36:09 IST" duration-ms="17857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method is-config="true" signature="logIn()[pri:0, instance:com.testng.org.TestWithIgnore@3059cbc]" started-at="2021-11-22T11:36:09 IST" name="logIn" finished-at="2021-11-22T11:36:27 IST" duration-ms="17800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method is-config="true" signature="refresh()[pri:0, instance:com.testng.org.TestWithIgnore@3059cbc]" started-at="2021-11-22T11:36:27 IST" name="refresh" finished-at="2021-11-22T11:36:35 IST" duration-ms="7800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refresh -->
+        <test-method signature="earPhone()[pri:0, instance:com.testng.org.TestWithIgnore@3059cbc]" started-at="2021-11-22T11:36:35 IST" name="earPhone" finished-at="2021-11-22T11:36:47 IST" duration-ms="12304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- earPhone -->
+        <test-method is-config="true" signature="mainPage()[pri:0, instance:com.testng.org.TestWithIgnore@3059cbc]" started-at="2021-11-22T11:36:47 IST" name="mainPage" finished-at="2021-11-22T11:36:56 IST" duration-ms="9083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainPage -->
+        <test-method is-config="true" signature="refresh()[pri:0, instance:com.testng.org.TestWithIgnore@3059cbc]" started-at="2021-11-22T11:36:56 IST" name="refresh" finished-at="2021-11-22T11:36:57 IST" duration-ms="1586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refresh -->
+        <test-method signature="watch()[pri:0, instance:com.testng.org.TestWithIgnore@3059cbc]" started-at="2021-11-22T11:36:57 IST" name="watch" finished-at="2021-11-22T11:37:16 IST" duration-ms="18025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- watch -->
+        <test-method is-config="true" signature="mainPage()[pri:0, instance:com.testng.org.TestWithIgnore@3059cbc]" started-at="2021-11-22T11:37:16 IST" name="mainPage" finished-at="2021-11-22T11:37:23 IST" duration-ms="7916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainPage -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:com.testng.org.TestWithIgnore@3059cbc]" started-at="2021-11-22T11:37:23 IST" name="logOut" finished-at="2021-11-22T11:37:29 IST" duration-ms="5686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="clearCache()[pri:0, instance:com.testng.org.TestWithIgnore@3059cbc]" started-at="2021-11-22T11:37:29 IST" name="clearCache" finished-at="2021-11-22T11:37:30 IST" duration-ms="620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCache -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testng.org.TestWithIgnore@3059cbc]" started-at="2021-11-22T11:37:30 IST" name="closeBrowser" finished-at="2021-11-22T11:37:32 IST" duration-ms="2053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.testng.org.TestWithIgnore -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

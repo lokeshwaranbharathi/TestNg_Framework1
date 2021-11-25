@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="com.testng.org.ParallelTest">
+        <methods>
+          <include name="watch"/>
+          <include name="mobileSearch"/>
+          <include name="speaker"/>
+          <include name="mainPage"/>
+          <include name="browserLaunch"/>
+          <include name="closeBrowser"/>
+          <include name="logIn"/>
+          <include name="setUp"/>
+          <include name="clearCache"/>
+          <include name="logOut"/>
+          <include name="refresh"/>
+        </methods>
+      </class> <!-- com.testng.org.ParallelTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
