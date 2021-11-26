@@ -9,6 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
@@ -103,7 +104,13 @@ public class Amazon_TestNG {
 		WebElement signout = driver.findElement(By.xpath("//span[text()='Sign Out']"));
         a.click(signout).perform();
 	}
-	@AfterTest
+	 @AfterTest
+	private void cookies() {
+	  driver.manage().deleteAllCookies();
+
+	}
+	
+	@AfterSuite
 	private void closeBrowser() {
 		driver.close();
 
